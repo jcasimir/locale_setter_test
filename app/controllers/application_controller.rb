@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   before_filter :set_user
 
-  include LocaleSetter
+  include LocaleSetter::Rails
 
   def current_user
     @current_user
