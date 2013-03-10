@@ -14,4 +14,5 @@ gem 'rspec-rails'
 gem 'capybara'
 gem 'launchy'
 gem 'locale_setter', :git => 'git://github.com/jcasimir/locale_setter.git'
-#gem 'locale_setter', :path => '../locale_setter/'
+# If you're working on locale_setter yourself, you'll want this line instead:
+# gem 'locale_setter', :path => '../locale_setter/'

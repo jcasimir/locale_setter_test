@@ -1,7 +1,8 @@
-PATH
-  remote: ../locale_setter/
+GIT
+  remote: git://github.com/jcasimir/locale_setter.git
+  revision: 3eaa85d06425ed6d46020b0b07e2015a9a97c760
   specs:
-    locale_setter (0.0.1)
+    locale_setter (0.3.0)
 
 GEM
   remote: https://rubygems.org/
